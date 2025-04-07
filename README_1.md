@@ -135,7 +135,9 @@ import math
 numeros = [2, 8, 15, 23, 91, 112, 256]
 raices_enteras = [num for num in numeros if math.sqrt(num) % 1 == 0]
 print("Números con raíces enteras:", raices_enteras)
+
 Copia el código
+
 10 - Haz un programa para una tienda que vende césped para jardines. Esta tienda trabaja con jardines circulares y el precio del metro cuadrado de césped es de R$ 25,00. Pide a la persona usuaria el radio del área circular y devuelve el valor en reales de cuánto tendrá que pagar.
 
 import math
