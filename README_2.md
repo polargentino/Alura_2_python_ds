@@ -217,7 +217,9 @@ def calcula_puntos(goles_marcados, goles_sofridos):
 
 puntos, aprob = calcula_puntos(goles_marcados, goles_sofridos)
 print(f"La puntuación del equipo fue de {puntos} y su rendimiento fue de {round(aprob)}%")
+
 Copia el código
+
 9 - Una posible solución a este punto la encuentras a continuación:
 
 dias = int(input("¿Cuántas diarias? "))
