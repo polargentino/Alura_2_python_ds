@@ -184,7 +184,9 @@ def analisis_notas(notas):
 notas_estudiante = [float(input(f"Ingrese la nota {i + 1}: ")) for i in range(4)]
 resultado = analisis_notas(notas_estudiante)
 print(f"El estudiante obtuvo una media de {resultado[2]:.2f}, con la mayor nota de {resultado[0]:.2f} puntos y la menor nota de {resultado[1]:.2f} puntos y fue {resultado[3]}")
+
 Copia el código
+
 7 - Has recibido una demanda para tratar 2 listas con los nombres y apellidos de cada estudiante concatenándolos para presentar sus nombres completos en la forma Nombre Apellido. Las listas son:
 
 nombres = ["juan", "MaRia", "JOSÉ"]
@@ -195,7 +197,9 @@ nombres_normalizados = map(lambda x: x.capitalize(), nombres)
 sobrenombres_normalizados = map(lambda x: x.capitalize(), sobrenombres)
 nombres_completos = list(map(lambda x, y: f"Nome completo: {x} {y}", nombres_normalizados, sobrenombres_normalizados))
 print(nombres_completos)
+
 Copia el código
+
 8 - Una posible solución a este punto la encuentras a continuación:
 
 goles_marcados = [2, 1, 3, 1, 0]
