@@ -168,7 +168,9 @@ notas = [float(input(f"Ingrese la nota {i + 1}: ")) for i in range(5)]
 notas.sort()
 media = sum(notas[1:4]) / 3
 print(f"Nota de la maniobra: {media:.2f}")
+
 Copia el código
+
 6 - Para cumplir con una demanda de una institución educativa para el análisis del rendimiento de sus estudiantes, necesitas crear una función que reciba una lista de 4 notas y devuelva:
 
 def analisis_notas(notas):
