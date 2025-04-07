@@ -254,7 +254,9 @@ def gasto_paseo(ciudad, dias):
 
 gastos = gasto_hotel(dias) + gasto_gasolina(ciudad) + gasto_paseo(ciudad, dias)
 print(f"Con base en los gastos definidos, un viaje de {dias} días a {ciudad} desde Recife costaría {round(gastos, 2)} reales")
+
 Copia el código
+
 10 - Una posible solución a este punto la encuentras a continuación:
 
 # Solicitando una frase y separándola por espacios. Usando replace para cambiar
@@ -266,7 +268,9 @@ frase = frase.replace(',',' ').replace('.',' ').replace('!',' ').replace('?',' '
 # solo las palabras con 5 o más caracteres e imprimiéndola en pantalla
 tamano = list(filter(lambda x: len(x) >= 5, frase))
 print(tamano)
+
 Copia el código
+
 Practicar es importante para fijar el contenido, desarrollar habilidades de programación, identificar puntos que aún no han sido comprendidos, prepararse para desafíos futuros y desarrollar pensamiento lógico y resolución de problemas.
 
 Pensando en esto, es importante hacer ejercicios cuando se está aprendiendo una nueva herramienta. Por lo tanto, busca practicar a través de los ejercicios propuestos y observa cómo esto puede ayudarte a progresar en tus habilidades en ciencia de datos.
