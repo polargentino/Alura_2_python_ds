@@ -1,0 +1,10 @@
+# Entorno virtual
+/ds_alura/
+
+# Archivos de Python generados
+*.pyc
+__pycache__/
+
+# Otros archivos o directorios que quieras ignorar
+*.log
+*.dat
