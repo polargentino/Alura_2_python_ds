@@ -175,7 +175,8 @@ del estudiante.
 puntuaciones.append(nota): Después de revisar todas las respuestas de un estudiante, se añade la 
 nota del estudiante a la lista puntuaciones.
 
-except ValueError as e:: Se define un bloque except específico para capturar la excepción ValueError que se lanza si se encuentra una alternativa inválida.
+except ValueError as e:: Se define un bloque except específico para capturar la excepción ValueError 
+que se lanza si se encuentra una alternativa inválida.
 
 print(e): Se imprime el mensaje de error de la excepción ValueError.
 
@@ -193,5 +194,8 @@ Prueba con tests_sin_ex: Se llama a la función corrector con la lista de prueba
 alternativas válidas. La función calculará las puntuaciones de cada estudiante y devolverá la lista 
 de puntuaciones, que luego se imprimirá.
 
-Este código cumple con todos los requisitos del desafío: contabiliza las puntuaciones, lanza un ValueError si encuentra una alternativa inválida, y muestra las notas solo si no se lanza la excepción. La salida muestra claramente el error cuando hay una alternativa inválida y las puntuaciones cuando todas las alternativas son válidas.
+Este código cumple con todos los requisitos del desafío: contabiliza las puntuaciones, lanza un 
+ValueError si encuentra una alternativa inválida, y muestra las notas solo si no se lanza la 
+excepción. La salida muestra claramente el error cuando hay una alternativa inválida y las 
+puntuaciones cuando todas las alternativas son válidas.
 '''

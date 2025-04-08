@@ -69,7 +69,9 @@ Copia el código
 Notas con excepción:
 
 tests_con_ex = [['D', 'A', 'B', 'C', 'A'], ['C', 'A', 'A', 'E', 'A'], ['D', 'B', 'A', 'C', 'A']]
+
 Copia el código
+
 6 - Estás trabajando con procesamiento de lenguaje natural (NLP) y, en esta ocasión, tu líder te pidió que crees un fragmento de código que reciba una lista con las palabras separadas de una frase generada por ChatGPT.
 
 Necesitas crear una función que evalúe cada palabra de este texto y verifique si el tratamiento para quitar los símbolos de puntuación (',', '.', '!' y '?') se realizó. De lo contrario, se lanzará una excepción del tipo ValueError señalando el primer caso en que se detectó el uso de una puntuación a través de la frase "El texto presenta puntuaciones en la palabra "[palabra]"". Esta solicitud se centra en el análisis del patrón de frases generadas por la inteligencia artificial.
@@ -106,7 +108,9 @@ except ZeroDivisionError:
     print("Error: No se puede dividir por cero.")
 except ValueError as e:
     print(f"Error: {e}")
+
 Copia el código
+
 2 -
 
 try:
@@ -115,7 +119,9 @@ try:
     print(f"La edad de {nombre} es {edad} años.")
 except KeyError:
     print("Error: Nombre no encontrado.")
+
 Copia el código
+
 3 -
 
 def convertir_a_float(lista):
@@ -131,7 +137,9 @@ def convertir_a_float(lista):
 lista_original = ['4.5', '2.3', '7.8', '1.2']
 lista_convertida = convertir_a_float(lista_original)
 print(lista_convertida)
+
 Copia el código
+
 4 - Datos para probar la función:
 
 Valores sin error:
@@ -148,7 +156,9 @@ Listas con valores incoherentes:
 
 lista1 = [4, 6, 7, 9, 'A']
 lista2 = [-4, 'E', 8, 7, 9]
+
 Copia el código
+
 def agrupar_listas(lista1, lista2):
     try:
         if len(lista1) != len(lista2):
@@ -173,7 +183,9 @@ try:
     print(resultado_valores_incoherentes)
 except Exception as e:
     print(f"Error general: {e}")
+
 Copia el código
+
 5 - Datos para la prueba del código:
 
 Respuesta de la prueba:
@@ -205,7 +217,9 @@ def corrector(tests: list):
     print(e)
   else:
     return puntuaciones 
+
 Copia el código
+
 Y se procede a probar la función con excepción:
 
 corrector(tests_con_ex)
@@ -213,7 +227,9 @@ Copia el código
 Y sin excepción:
 
 corrector(tests_sin_ex)
+
 Copia el código
+
 6 - Lista tratada:
 
 lista_tratada = ['Python', 'es', 'un', 'lenguaje', 'de', 'programación', 'poderoso', 'versátil',
