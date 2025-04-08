@@ -49,7 +49,9 @@ Glucosa superior a 125: 'Diabetes'
 La clínica proporcionó parte de los valores y tu tarea es crear una lista de tuplas usando la comprensión de listas que contenga la etiqueta y el valor de la glucemia en cada tupla.
 
 glicemia = [129, 82, 60, 97, 101, 65, 62, 167, 87, 53, 58, 92, 66, 120, 109, 62, 86, 96, 103, 88, 155, 52, 89, 73]
+
 Copia el código
+
 8 - Un comercio electrónico tiene información de id de venta, cantidad vendida y precio del producto divididos en las siguientes listas:
 
 id = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
