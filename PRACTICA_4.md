@@ -259,7 +259,9 @@ Copia el código
 Y con la lista no tratada:
 
 evaluar_puntuacion(lista_no_tratada)
+
 Copia el código
+
 7 - Función de división de columnas y manejo de excepciones:
 
 # Creando la función que recibe las dos listas y la operación a realizar
