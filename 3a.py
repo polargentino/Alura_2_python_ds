@@ -16,24 +16,39 @@ print(lista)
 '''
 [81, 67, 83]
 
-El método .append() es una función fundamental utilizada en Python para modificar listas, añadiendo un nuevo elemento al final de la lista existente.
+El método .append() es una función fundamental utilizada en Python para modificar listas, 
+añadiendo un nuevo elemento al final de la lista existente.
 
 Aquí tienes una definición más detallada y sus características clave:
 
 Definición:
 
-El método .append() toma un único argumento (el elemento que se desea agregar) y lo añade al final de la lista sobre la cual se invoca. La lista original es modificada directamente; no se crea una nueva lista.
+El método .append() toma un único argumento (el elemento que se desea agregar) y lo añade al final 
+de la lista sobre la cual se invoca. La lista original es modificada directamente; no se crea una 
+nueva lista.
 
 Características principales:
 
-Modifica la lista original: A diferencia de algunas operaciones que crean una nueva lista, .append() altera la lista existente en memoria.
-Añade al final: El nuevo elemento siempre se coloca en la última posición de la lista, incrementando su longitud en uno.
-Acepta cualquier tipo de dato: Puedes agregar cualquier tipo de objeto a una lista usando .append(), incluyendo números, strings, booleanos, otras listas, tuplas, diccionarios, objetos personalizados, etc.
-No devuelve un nuevo valor: El método .append() no retorna una nueva lista ni ningún otro valor específico (formalmente, devuelve None). Su efecto principal es la modificación de la lista.
-Es un método de objeto lista: .append() solo puede ser llamado en objetos que son de tipo list en Python.
-Analogía:
+Modifica la lista original: A diferencia de algunas operaciones que crean una nueva lista, .append() 
+altera la lista existente en memoria.
 
-Imagina una fila de personas. El método .append() sería como añadir una nueva persona al final de esa fila. La fila original ahora es más larga y la nueva persona está al final.
+Añade al final: El nuevo elemento siempre se coloca en la última posición de la lista, incrementando 
+su longitud en uno.
+
+Acepta cualquier tipo de dato: Puedes agregar cualquier tipo de objeto a una lista usando .append(), 
+incluyendo números, strings, booleanos, otras listas, tuplas, diccionarios, objetos personalizados, 
+etc.
+
+No devuelve un nuevo valor: El método .append() no retorna una nueva lista ni ningún otro valor 
+específico (formalmente, devuelve None). Su efecto principal es la modificación de la lista.
+
+Es un método de objeto lista: .append() solo puede ser llamado en objetos que son de tipo list en 
+Python.
+
+Analogía:
+--------
+Imagina una fila de personas. El método .append() sería como añadir una nueva persona al final de 
+esa fila. La fila original ahora es más larga y la nueva persona está al final.
 
 Ejemplos:
 
