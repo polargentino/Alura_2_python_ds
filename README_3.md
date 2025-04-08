@@ -15,11 +15,15 @@ Maneja errores y comportamientos indeseados en tu código.
 1 - Crea un código para imprimir la suma de los elementos de cada una de las listas contenidas en la siguiente lista:
 
 lista_de_listas = [[4, 6, 5, 9], [1, 0, 7, 2], [3, 4, 1, 8]]
+
 Copia el código
+
 2 - Crea un código para generar una lista que almacene el tercer elemento de cada tupla contenida en la siguiente lista de tuplas:
 
 lista_de_tuplas = [('Pedro', 1.74, 81), ('Júlia', 1.65, 67), ('Otávio', 1.81, 83)]
+
 Copia el código
+
 3 - A partir de la lista: lista = ['Pedro', 'Júlia', 'Otávio', 'Eduardo'], crea un código para generar una lista de tuplas en la que cada tupla tenga el primer elemento como la posición del nombre en la lista original y el segundo elemento siendo el propio nombre.
 
 4 - Crea una lista usando la comprensión de listas (list comprehension) que almacene solo el valor numérico de cada tupla en caso de que el primer elemento sea 'Apartamento', a partir de la siguiente lista de tuplas:
@@ -77,46 +81,62 @@ A continuación te presentamos las posibles soluciones al desafío propuesto:
 
 for lista in lista_de_listas:
     print(sum(lista))
+
 Copia el código
+
 2 -
 
 lista = []
 for tupla in lista_de_tuplas:
     lista.append(tupla[2])
 print(lista)
+
 Copia el código
+
 3 -
 
 lista_de_tuplas = []
 for i in range(len(lista)):
     lista_de_tuplas.append((i, lista[i]))
 print(lista_de_tuplas)
+
 Copia el código
+
 4 -
 
 lista = [tupla[1] for tupla in alquiler if tupla[0]== 'Apartamento']
 print(lista)
+
 Copia el código
+
 5 -
 
 diccionario = {meses[i]: gasto[i] for i in range(len(meses))}
 print(diccionario)
+
 Copia el código
+
 6 -
 
 filtro = [tupla[1] for tupla in ventas if tupla[0] == '2022' and tupla[1] > 6000]
 print(filtro)
+
 Copia el código
+
 7 -
 
 etiquetas = [('Hipoglicemia', glucosa) if glucosa<= 70 else ('Normal', glucosa) if glucosa< 100 else ('Alterada', glucosa) if glucosa< 125 else ('Diabetes', glucosa) for glucosa in glicemia]
 print(etiquetas)
+
 Copia el código
+
 8 -
 
 tabla = [('id', 'cantidad', 'precio', 'total')]
 tabla += [(id[i], cantidad[i], precio[i], cantidad[i]*precoo[i]) for i in range(len(id))]
+
 Copia el código
+
 9 -
 
 # Almacenando los estados sin repetición de valor
@@ -132,7 +152,9 @@ print(lista_de_listas)
 # Creando un diccionario en el que la clave es el nombre de cada estado único y el valor es la cantidad de elementos
 conteo_valores = {estados_unicos[i]: len(lista_de_listas[i]) for i in range(len(estados_unicos))}
 print(conteo_valores)
+
 Copia el código
+
 10 -
 
 # Almacenando los estados sin repetición de valor
